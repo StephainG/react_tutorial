@@ -1,7 +1,7 @@
 const Wednesday = () => {
     return ( 
         <div className="wednesday">
-            <h1>Wednesday Prayer Meeting</h1>
+            <h1>Wednesday Ministry Meeting</h1>
         </div>
      );
 }
