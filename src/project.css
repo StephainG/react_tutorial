@@ -33,3 +33,58 @@
     padding: 8px;
     cursor: pointer;
 }
+.prayer:hover, .saturday:hover, .sunday:hover, .wednesday:hover{
+    background-color: #012c03;}
+.glt_steward{
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 8px;
+    margin: 0 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.36);
+}
+.glt_steward button{
+    background-color:#012c03b4;
+    font-size: 16px;
+    color: #F2E5E5;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 12px;
+}
+.glt_steward h1{
+    font-size: 16px;
+    margin: 10px;
+    opacity: 0.5;
+}
+.glt_steward button:hover{
+    background-color: #012c03;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: white;
+    }
+    .title{
+        height: 120px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-top: 20px;
+    }
+    .title{
+        background-image: url(./images/glt.png);
+    }
+    .ministry{
+        font-size: 8px;
+        font-weight: 400;
+        letter-spacing: 8px;
+        opacity: 0.7;
+    }
+    .prayer, .saturday, .sunday, .wednesday{
+        font-size: 8px;
+        background-color: #012c03b4;
+        color: #F2E5E5;
+        margin: 46px 20px;
+    }
+  }
+  
